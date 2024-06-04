@@ -1,13 +1,23 @@
 body
 {
     background-color: lightblue;
+    font-family: 'Comic Sans MS';
 }
 #title
 {
     text-align: center;
     color: purple;
+    font-size: 30px;
+    font-weight: bold;
 }
 #links
 {
     text-align: center;
+}
+
+a { color: black; }
+
+ul
+{
+    list-style-type: none;
 }
