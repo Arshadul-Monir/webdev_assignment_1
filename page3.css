@@ -1,0 +1,36 @@
+body
+{
+    background-color: lightblue;
+    font-family: 'Comic Sans MS';
+    overflow: visible;
+}
+#title
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#caption
+{
+    font-size: 30px;
+    color: purple;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+h2
+{
+    margin: 5px 5px 5px 5px;
+}
+
+li:hover
+{
+    text-decoration: line-through;
+    color: red;
+}
+
+/* make sure delete button is left side of the marker */
+li {
+    position: relative;
+    list-style-position: inside;
+}
