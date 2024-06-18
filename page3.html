@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>About me</title>
+        <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="page1.css">
     </head>
     <body>
@@ -10,8 +11,12 @@
             <a href = "index.html">Home</a>
         </div>
         <div>
-            <b>TO DO:</b> <hr/>
-            <li id = "list"></li>
+            <b>TO DO:</b>
+            <input type="text" id="inp"><button onclick = "add()">add</button>
+            <hr/>
+            <ol id = "list">
+                <li><button onclick = "del(this)">deeleet</button></li>
+            </ol>
         </div>
     </body>
 </html>
